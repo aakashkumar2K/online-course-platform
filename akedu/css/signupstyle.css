@@ -1,0 +1,374 @@
+
+/*=======================================
+       Basic Properties start
+
+
+       body
+{
+
+	height: 2000px;
+}
+==========================================*/
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#myhead
+{
+	font-family: 'Lobster';
+}
+/*=======================================
+       Basic Properties start
+==========================================*/
+
+
+/*=======================================
+       Navigation Properties start
+==========================================*/
+.navbar
+{
+	padding: 22px 0px;
+	 
+	background-color:  deepskyblue !important;
+	
+	border-bottom: none !important;
+	transition: all 0.5s ease-in-out; 
+	
+
+}
+ul li a
+{
+	color: white !important;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.5s ease-in;
+}
+
+ul li a:hover
+{
+	color: deepskyblue !important;
+	font-size: 14px ;
+}
+.navbar-toggle
+{
+	border:1px solid white !important;
+	transition: all 0.5s ease-in;
+}
+.navbar-toggle:hover
+{
+	background-color:deepskyblue !important;
+}
+
+#our-location
+{
+	border: 1px solid white ;
+	border-radius: 45px;
+	padding: 12px 12px 12px 12px;
+	
+	background: deepskyblue !important;
+
+}
+#our-location:hover
+{
+	background-color: white !important;
+	
+}
+
+.navbar-inverse
+{
+	background-color: rgb(17, 30, 45,0.5) !important;
+}
+
+
+/*=======================================
+       Navigation Properties ends
+==========================================*/
+
+
+/*=======================================
+  Sticky Navigation with background color
+==========================================*/
+
+
+
+
+
+/*=======================================
+      Sticky Navigation Properties ends
+==========================================*/
+
+
+/*=======================================
+       Slider Properties start
+==========================================*/
+
+.slider
+{
+	width: 100%;
+	margin-top: 50;
+	position: absolute;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+
+.slider-overlay
+{
+	width: 100%;
+	height: 100%;
+	background : rgba(0,0,0,0.6);
+}
+.slider-content
+{
+	position: absolute;
+	top:30%;
+	width: 100%;
+	color:white;
+}
+
+.icons .fa
+{
+	font-size: 40px;
+	margin-right: 7px;
+}
+
+.cta-div
+{
+	margin-top: 30px;
+}
+
+.btn1
+{
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border :2px solid white;
+	border-top-left-radius: 15px;
+	transition: all 0.3s ease-in;
+	margin-right: -6px;
+
+
+}
+.btn1:hover
+{
+	text-decoration: none;
+	color:white;
+	background-color: orangered;
+	border-color: orangered;
+	font-size: 15px;
+
+}
+
+.btn2
+{
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border :2px solid white;
+	background-color: deepskyblue;
+	border-bottom-right-radius: 15px;
+	transition: all 0.5s ease-in;
+
+}
+.btn2:hover
+{
+	text-decoration: none;
+	color:white;
+	background-color: transparent;
+	border-color: deepskyblue;
+}
+
+.social-networks .fa
+{
+	border:1px solid white;
+	padding: 10px;
+	color: white;
+	width: 35px;
+	height: 35px;
+	border-radius: 25px;
+	transition: all 0.5s ease-in;
+}
+
+.social-networks .fa:hover
+{
+	text-decoration: none;
+	background-color: deepskyblue;
+	color:red;
+	border:1px solid deepskyblue;
+}
+
+.slider .text,.slider .typed-cursor
+{
+	display: inline;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+
+.primary
+{
+	color: orangered;
+	
+}
+
+
+/*=======================================
+       Login Page Properties start
+==========================================*/
+.login-heading
+{
+	padding-top: 10px;
+	padding-left: 30px !important;
+	background-color:orange;
+	font-size:25px;
+	border-radius:2px;
+	
+}
+
+
+.modal-content
+{
+ position: relative !important;
+ margin:33% auto    !important;
+ height: 400px !important;
+ background: white !important;
+ box-shadow: 0 2px 4px rgba(0,0,0,0.6)
+
+}
+
+.modal-dialog
+{
+	padding-top: 100px !important;
+	 width:500px !important;
+}
+label
+{
+	margin-left: -290px;
+margin-top: 5px;
+	position: absolute;
+	width: 160px;
+}
+.top-box
+{
+	position: absolute !important;
+	top:0 !important;
+	left:0 !important;
+	box-sizing: border-box !important;
+	padding: 40px !important;
+	width: 600px !important;
+	height: 400px !important;
+	/*background-image: url(..//img/moon.jpg);*/
+	margin-top: -58px !important;
+/*	background-size: cover !important;*/
+}
+
+input[type="text"]
+{
+	margin-bottom: 20px !important;
+	padding: 4px !important;
+	width: 220px !important;
+	height: 30px !important;
+	border-bottom: 1.5px solid #aaa !important;
+	font-weight: 400px !important;
+	font-size: 15px !important;
+	transition:  ease-in !important;
+	margin-left: 190px;
+}
+
+input[type="password"]
+{
+	margin-bottom: 20px !important;
+	padding: 4px !important;
+	width: 220px !important;
+	height: 30px !important;
+	
+	border-bottom: 1.5px solid #aaa !important;
+	font-weight: 400px !important;
+	font-size: 15px !important;
+	transition:  ease-in !important;
+	margin-left: 190px;
+}
+
+
+.form-group
+{
+	margin-top: 50px;
+}
+
+
+
+
+#btn-signup
+{
+	position: absolute;
+	width:150px !important;
+	height: 32px !important;
+	border: none !important;
+	/*border-radius: 2px !important;*/
+	color: #fff !important;
+	font-weight:500px !important;
+	text-transform: uppercase !important;
+	transition: 0.5 ease-in !important;
+	cursor: pointer !important;
+	margin-top: 230px;
+	background-color: orangered !important;
+	margin-left: -70px;
+	background-color: deepskyblue !important;
+	/*border-bottom-right-radius: 10px !important;*/
+	
+
+}
+
+#sign
+{
+	text-decoration: none !important;
+	color: white !important;
+}
+
+.register h2
+{
+	width: 250px;
+	padding-top: 80px;
+	font-size: 16px;
+}
+#create-account a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+
+	
+
+/*=======================================
+       LoginPage Properties End
+==========================================*/
+
+
+/*=======================================
+       Our Services Properties Starts
+==========================================*/
+
+
+
+/*=======================================
+       Our Services Properties End
+==========================================*/
+
+
+
+
